@@ -32,7 +32,7 @@ pipeline {
 
     post {
         failure {
-            echo '🚨 Pipeline Failed! Check logs for errors.'
+            echo 'Pipeline Failed! Check logs for errors.'
         }
     }
 }
